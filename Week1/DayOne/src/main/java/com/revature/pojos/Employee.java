@@ -6,7 +6,7 @@ public class Employee {
 	
 	private String firstName, lastName, email;
 	
-	
+	//No-args constructor
 	public Employee(){
 		
 	}
@@ -20,6 +20,10 @@ public class Employee {
 	}
 
 
+	/*
+	 * Besides access modifiers, we have getters and setters to retrieve private fields from a public constructor.
+	 * That way, we limit access to these and don't mess with them in other parts of our program.
+	 */
 	public int getId() {
 		return id;
 	}
